@@ -1,0 +1,107 @@
+@font-face {
+    font-family: Foodlist;
+    src: url(Foodlist-Regular.ttf);
+}
+
+body {
+    min-height: 100vh;
+    margin: 20px;
+    text-align: center;
+    font-family: Foodlist;
+    color: white;
+    background-color: #2D8833;
+}
+
+h1 {
+    color: #014706;
+}
+
+input {
+    font-family: Foodlist;
+    font-size: 20px;
+}
+
+.input {
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #014706;
+}
+
+.input:focus {
+    outline: 3px solid #014706;
+}
+
+.boton-agregar {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #014706;
+    color: white;
+}
+
+.boton-agregar:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.item-input {
+    width: 175px; 
+    height: 30px;
+    padding: 0px 20px;
+    border: 1px solid #014706;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #014706;
+    background: none;
+    outline: none;
+    text-align: center;
+}
+
+.item-input:focus {
+    background-color: white;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.boton-editar {
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: none;
+    font-size: 1.4rem;
+    font-family: 'Montserrat, sans-serif';
+}
+
+.boton-editar:hover {
+    cursor: pointer;
+}
+
+.boton-remover {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #014706;
+    color: white;
+    font-size: 15px;
+}
+
+.boton-remover:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
